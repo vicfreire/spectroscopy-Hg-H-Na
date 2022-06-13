@@ -38,4 +38,4 @@ The step by step of the precedure:
 - Plot a graph that connects wavelenght and the quantum number **n** for every Na series.
 - Calculate $R_H$.
 - Calculate quantum corrections. 
-- To analyse de Na spectra it was used the genetic algorithm routine developed by Professor Antonio Domingues dos Santos from Physics Institute of Univertsity of São Paulo. The routine is the Na_Multilines.exe and there is an exemple file to understand the patameters.
+- To analyse de Na spectra it was used the genetic algorithm routine developed by Professor Antonio Domingues dos Santos from Physics Institute of Univertsity of São Paulo. The routine is the Na_MultiLines.exe and there is an exemple file to understand the patameters.
