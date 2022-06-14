@@ -1,0 +1,89 @@
+Np= 2             numero de linhas de Principal, Nitida, Difusa, Balmer (max 15)
+Nn= 3
+Nd= 3
+Nb= 0
+R= 1.0e7          valores iniciais de R, S, P, D
+S= 1.5
+P= 0.5
+D= 0.0
+minR= 1e6         limites inferior e superior de R, S, P, D
+maxR= 1e8
+minS= 0.5
+maxS= 2.0
+minP= 0.3
+maxP= 1.5
+minD= 0.0
+maxD= 0.1
+Niteracao= 500000   numero m ximo de iteracoes
+Nfilhos= 20        numero de conjuntos de parametros em cada geracao  (max 40)
+Kmutacao= 0.2      parametro de mutacao  (entre 0 e 1)
+Kconverge= 0.6     fator de convergencia para as geracoes sucessivas (entre 0 e 1)
+crit_erro= 1e-5    criterio de parada, variacao minima do erro relativo (ainda n o est  em uso) 
+crit_iter= 10000    criterio de parada, numero maximo de iteracoes sem evolucao
+Principal=  
+3 5.900E-7  1e-8           Np linhas da serie principal e incertezas (em m)
+4 3.302E-7  1e-8   
+Nitida=  
+5 6.175E-7  1e-8           Nn linhas da serie nitida e incertezas (em m)
+6 5.145E-7  1e-8     
+7 4.815E-7  1e-8     
+Difusa=  
+4 5.690E-7  1e-8           Nd linhas da serie difusa e incertezas (em m)
+5 4.972E-7  1e-8       
+6 4.656E-7  1e-8      
+Balmer=  
+3 6.5930E-7  1e-9           Nb linhas da serie de Balmer e incertezas (em m)
+4 4.8580E-7  1e-9
+5 4.3415e-7  1e-9
+6 4.1056e-7  1e-9
+7 3.9760e-7  1e-9
+
+R= 1e+07  S= 1.5  P= 0.5  D= 0  erro= 107.007  erro_rel= 1  iter= 0
+R= 1.62164e+07  S= 1.29542  P= 0.428617  D= 0  erro= 37.0211  erro_rel= 0.65403  iter= 1
+R= 1.42931e+07  S= 1.26604  P= 0.543317  D= 0  erro= 26.49  erro_rel= 0.284462  iter= 3
+R= 1.47727e+07  S= 1.12638  P= 0.589249  D= 0.0166987  erro= 6.23736  erro_rel= 0.764539  iter= 4
+R= 1.49872e+07  S= 1.1415  P= 0.590072  D= 0.0572985  erro= 5.9996  erro_rel= 0.0381176  iter= 6
+R= 1.52653e+07  S= 1.11996  P= 0.586907  D= 0.0455694  erro= 4.72632  erro_rel= 0.212227  iter= 7
+R= 1.52653e+07  S= 1.11996  P= 0.586907  D= 0.0112054  erro= 4.25269  erro_rel= 0.100213  iter= 18
+R= 1.51432e+07  S= 1.13243  P= 0.597013  D= 0.0112054  erro= 4.16021  erro_rel= 0.0217461  iter= 33
+R= 1.5158e+07  S= 1.12826  P= 0.599803  D= 0.00757625  erro= 4.06957  erro_rel= 0.0217878  iter= 38
+R= 1.50933e+07  S= 1.12645  P= 0.598508  D= 0.00281489  erro= 4.00227  erro_rel= 0.0165363  iter= 39
+R= 1.49892e+07  S= 1.13747  P= 0.601703  D= 0.00235656  erro= 3.98443  erro_rel= 0.00445768  iter= 41
+R= 1.49892e+07  S= 1.13747  P= 0.601703  D= 0  erro= 3.95522  erro_rel= 0.00733166  iter= 124
+R= 1.48951e+07  S= 1.14091  P= 0.610151  D= 0  erro= 3.75496  erro_rel= 0.0506308  iter= 141
+R= 1.47582e+07  S= 1.1518  P= 0.620142  D= 0.000839048  erro= 3.66789  erro_rel= 0.0231874  iter= 253
+R= 1.33671e+07  S= 1.23846  P= 0.707743  D= 0.000632642  erro= 3.36416  erro_rel= 0.0828099  iter= 257
+R= 1.29974e+07  S= 1.25424  P= 0.735303  D= 0.00057072  erro= 2.36263  erro_rel= 0.297704  iter= 258
+R= 1.25394e+07  S= 1.2789  P= 0.765512  D= 0.00382447  erro= 1.9143  erro_rel= 0.189762  iter= 291
+R= 1.25616e+07  S= 1.27471  P= 0.764788  D= 0.000322606  erro= 1.69455  erro_rel= 0.114794  iter= 319
+R= 1.25765e+07  S= 1.27357  P= 0.765109  D= 0.000410383  erro= 1.68498  erro_rel= 0.00564736  iter= 405
+R= 1.25765e+07  S= 1.27357  P= 0.765109  D= 0  erro= 1.68266  erro_rel= 0.00137293  iter= 409
+R= 1.25041e+07  S= 1.27697  P= 0.769444  D= 0  erro= 1.61021  erro_rel= 0.0430573  iter= 564
+R= 1.23105e+07  S= 1.28994  P= 0.784156  D= 0  erro= 1.47784  erro_rel= 0.0822059  iter= 677
+R= 1.18903e+07  S= 1.31423  P= 0.817017  D= 0  erro= 1.29013  erro_rel= 0.127018  iter= 695
+R= 1.18816e+07  S= 1.31185  P= 0.812454  D= 0  erro= 1.20647  erro_rel= 0.0648484  iter= 743
+R= 1.09144e+07  S= 1.37422  P= 0.887903  D= 0  erro= 0.838342  erro_rel= 0.305127  iter= 789
+R= 1.09144e+07  S= 1.37422  P= 0.887903  D= 0.00540121  erro= 0.826872  erro_rel= 0.0136813  iter= 818
+R= 1.09144e+07  S= 1.37422  P= 0.887903  D= 0.0148299  erro= 0.818852  erro_rel= 0.00969975  iter= 923
+R= 1.09471e+07  S= 1.37422  P= 0.887903  D= 0.0194048  erro= 0.805045  erro_rel= 0.016861  iter= 936
+R= 1.09471e+07  S= 1.37693  P= 0.887961  D= 0.0176512  erro= 0.775728  erro_rel= 0.0364172  iter= 1210
+R= 1.09471e+07  S= 1.37693  P= 0.887961  D= 0.0245472  erro= 0.75768  erro_rel= 0.023266  iter= 1221
+R= 1.0588e+07  S= 1.39655  P= 0.913855  D= 0.0315384  erro= 0.744412  erro_rel= 0.0175112  iter= 1505
+R= 1.06207e+07  S= 1.39655  P= 0.913855  D= 0.0315384  erro= 0.705707  erro_rel= 0.051994  iter= 1587
+R= 1.06207e+07  S= 1.39655  P= 0.913855  D= 0.0327028  erro= 0.701492  erro_rel= 0.00597263  iter= 1670
+R= 1.06207e+07  S= 1.39655  P= 0.913855  D= 0.0425137  erro= 0.6762  erro_rel= 0.0360547  iter= 1728
+R= 1.06207e+07  S= 1.39655  P= 0.913855  D= 0.0439219  erro= 0.674162  erro_rel= 0.0030131  iter= 1753
+R= 1.06207e+07  S= 1.39655  P= 0.913855  D= 0.0442088  erro= 0.673798  erro_rel= 0.000539698  iter= 1770
+R= 1.06101e+07  S= 1.39704  P= 0.913008  D= 0.0480842  erro= 0.639797  erro_rel= 0.0504625  iter= 2369
+R= 1.06101e+07  S= 1.39704  P= 0.913008  D= 0.0402555  erro= 0.625903  erro_rel= 0.0217165  iter= 2749
+R= 1.06101e+07  S= 1.39704  P= 0.913008  D= 0.038906  erro= 0.624931  erro_rel= 0.00155274  iter= 2871
+R= 1.06101e+07  S= 1.39704  P= 0.913008  D= 0.0358919  erro= 0.624281  erro_rel= 0.00104047  iter= 2982
+R= 1.06101e+07  S= 1.39704  P= 0.913008  D= 0.0364042  erro= 0.624243  erro_rel= 5.97941e-05  iter= 4084
+R= 1.065e+07  S= 1.3948  P= 0.909841  D= 0.0364575  erro= 0.619153  erro_rel= 0.00815448  iter= 10248
+R= 1.065e+07  S= 1.3948  P= 0.909841  D= 0.0341831  erro= 0.618902  erro_rel= 0.000405046  iter= 11410
+R= 1.065e+07  S= 1.3948  P= 0.909841  D= 0.0353872  erro= 0.618884  erro_rel= 2.91062e-05  iter= 11803
+R= 1.065e+07  S= 1.3948  P= 0.909841  D= 0.0352602  erro= 0.61887  erro_rel= 2.27633e-05  iter= 11971
+R= 1.065e+07  S= 1.3948  P= 0.909841  D= 0.0352272  erro= 0.618867  erro_rel= 4.91962e-06  iter= 12699
+R= 1.065e+07  S= 1.3948  P= 0.909841  D= 0.0347738  erro= 0.618851  erro_rel= 2.58876e-05  iter= 14538
+R= 1.065e+07  S= 1.3948  P= 0.909841  D= 0.0347738  erro= 0.618851  erro_rel= 2.58876e-05  iter= 24539
+sigmaR= 625700  sigmaS= 0.406997  sigmaP= 0.132861  sigmaD= 0.519004  R2= 0.99406

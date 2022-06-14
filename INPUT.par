@@ -1,0 +1,39 @@
+Np= 2             numero de linhas de Principal, Nitida, Difusa, Balmer (max 15)
+Nn= 3
+Nd= 3
+Nb= 0
+R= 1.0e7          valores iniciais de R, S, P, D
+S= 1.5
+P= 0.5
+D= 0.0
+minR= 1e6         limites inferior e superior de R, S, P, D
+maxR= 1e8
+minS= 0.5
+maxS= 2.0
+minP= 0.3
+maxP= 1.5
+minD= 0.0
+maxD= 0.1
+Niteracao= 500000   numero m ximo de iteracoes
+Nfilhos= 20        numero de conjuntos de parametros em cada geracao  (max 40)
+Kmutacao= 0.2      parametro de mutacao  (entre 0 e 1)
+Kconverge= 0.6     fator de convergencia para as geracoes sucessivas (entre 0 e 1)
+crit_erro= 1e-5    criterio de parada, variacao minima do erro relativo (ainda n o est  em uso) 
+crit_iter= 10000    criterio de parada, numero maximo de iteracoes sem evolucao
+Principal=  
+3 5.900E-7  1e-8           Np linhas da serie principal e incertezas (em m)
+4 3.302E-7  1e-8   
+Nitida=  
+5 6.175E-7  1e-8           Nn linhas da serie nitida e incertezas (em m)
+6 5.145E-7  1e-8     
+7 4.815E-7  1e-8     
+Difusa=  
+4 5.690E-7  1e-8           Nd linhas da serie difusa e incertezas (em m)
+5 4.972E-7  1e-8       
+6 4.656E-7  1e-8      
+Balmer=  
+3 6.5930E-7  1e-9           Nb linhas da serie de Balmer e incertezas (em m)
+4 4.8580E-7  1e-9
+5 4.3415e-7  1e-9
+6 4.1056e-7  1e-9
+7 3.9760e-7  1e-9
